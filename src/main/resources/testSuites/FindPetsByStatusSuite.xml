@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Pet - Find Pets By Status">
+    <test name="Find Pets By Status - Negative Scenario 1">
+        <parameter name="testCase" value="FindPetByStatus_NegativeScenario1"/>
+        <parameter name="environmentName" value="pet"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="FindPetsByStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Find Pets By Status - Positive Scenario 1">
+        <parameter name="testCase" value="FindPetByStatus_PositiveScenario1"/>
+        <parameter name="environmentName" value="pet"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="FindPetsByStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Find Pets By Status - Positive Scenario 2">
+        <parameter name="testCase" value="FindPetByStatus_PositiveScenario2"/>
+        <parameter name="environmentName" value="pet"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="FindPetsByStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Find Pets By Status - Positive Scenario 3">
+        <parameter name="testCase" value="FindPetByStatus_PositiveScenario3"/>
+        <parameter name="environmentName" value="pet"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="FindPetsByStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

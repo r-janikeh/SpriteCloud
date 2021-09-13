@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Pet - Find Pets By Id">
+    <test name="Find Pets By Id - Positive Scenario 1">
+        <parameter name="testCase" value="FindPetById_PositiveScenario1"/>
+        <parameter name="environmentName" value="pet"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="FindPetsById"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Find Pets By Id - Negative Scenario 1">
+        <parameter name="testCase" value="FindPetById_NegativeScenario1"/>
+        <parameter name="environmentName" value="pet"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="FindPetsById"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

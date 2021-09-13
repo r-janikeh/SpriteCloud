@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User - Logout User">
+    <test name="Logout User To System - Positive Scenario 1">
+        <parameter name="testCase" value="LogOutUser_PositiveScenario1"/>
+        <parameter name="environmentName" value="user"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="LogoutUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

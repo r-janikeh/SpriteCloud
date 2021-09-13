@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Pet - Add New Pet To Store">
+    <test name="Add New Pet To Store - Positive Scenario 1">
+        <parameter name="testCase" value="AddNewPetToStore_PositiveScenario1"/>
+        <parameter name="environmentName" value="pet"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="AddNewPetToStore"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

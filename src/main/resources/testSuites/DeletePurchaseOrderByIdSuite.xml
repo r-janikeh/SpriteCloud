@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Store - Order Delete">
+    <test name="Delete Purchase Order By Id - Positive Scenario 1">
+        <parameter name="testCase" value="DeletePurchaseOrderById_PositiveScenario1"/>
+        <parameter name="environmentName" value="store"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="DeletePurchaseOrderById"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Delete Purchase Order By Id - Negative Scenario 1">
+        <parameter name="testCase" value="DeletePurchaseOrderById_NegativeScenario1"/>
+        <parameter name="environmentName" value="store"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="DeletePurchaseOrderById"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Pet - Upload An Image">
+    <test name="Upload An Image - Positive Scenario 1">
+        <parameter name="testCase" value="UploadAndImage_PositiveScenario1"/>
+        <parameter name="environmentName" value="pet"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="UploadAnImage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

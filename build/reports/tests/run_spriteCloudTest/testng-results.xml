@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="475" total="500" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-08T13:09:43Z" name="Pet - Delete Pet" finished-at="2021-08-08T13:10:01Z" duration-ms="17909">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:09:43Z" name="Delete Pet - Positive Scenario 1" finished-at="2021-08-08T13:09:51Z" duration-ms="8468">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@3ebe359c]" started-at="2021-08-08T13:09:43Z" name="startEngine" finished-at="2021-08-08T13:09:43Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="DeletePet(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@3ebe359c]" started-at="2021-08-08T13:09:43Z" name="DeletePet" finished-at="2021-08-08T13:09:51Z" duration-ms="8343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DeletePet_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePet -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Delete Pet - Positive Scenario 1 -->
+    <test started-at="2021-08-08T13:09:51Z" name="Delete Pet - Negative Scenario 1" finished-at="2021-08-08T13:10:01Z" duration-ms="9399">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@657243e2]" started-at="2021-08-08T13:09:52Z" name="startEngine" finished-at="2021-08-08T13:09:52Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="DeletePet(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@657243e2]" started-at="2021-08-08T13:09:52Z" name="DeletePet" finished-at="2021-08-08T13:10:01Z" duration-ms="9300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DeletePet_NegativeScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePet -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Delete Pet - Negative Scenario 1 -->
+  </suite> <!-- Pet - Delete Pet -->
+  <suite started-at="2021-08-08T13:10:01Z" name="Store - Pet Inventory" finished-at="2021-08-08T13:10:02Z" duration-ms="1484">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:01Z" name="Return Pet Inventory - Positive Scenario 1" finished-at="2021-08-08T13:10:02Z" duration-ms="1484">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@737bfa4f]" started-at="2021-08-08T13:10:01Z" name="startEngine" finished-at="2021-08-08T13:10:01Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="ReturnPetInventoryByStatus(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@737bfa4f]" started-at="2021-08-08T13:10:01Z" name="ReturnPetInventoryByStatus" finished-at="2021-08-08T13:10:02Z" duration-ms="1340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ReturnPetInventoryByStatus_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnPetInventoryByStatus -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Return Pet Inventory - Positive Scenario 1 -->
+  </suite> <!-- Store - Pet Inventory -->
+  <suite started-at="2021-08-08T13:10:02Z" name="Store - Create Order For Pet" finished-at="2021-08-08T13:10:05Z" duration-ms="2038">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:02Z" name="Place Order For Pet - Positive Scenario 1" finished-at="2021-08-08T13:10:05Z" duration-ms="2038">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@765ed36d]" started-at="2021-08-08T13:10:02Z" name="startEngine" finished-at="2021-08-08T13:10:03Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="PlaceOrderForPet(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@765ed36d]" started-at="2021-08-08T13:10:03Z" name="PlaceOrderForPet" finished-at="2021-08-08T13:10:05Z" duration-ms="1869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PlaceOrderForPet_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderForPet -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Place Order For Pet - Positive Scenario 1 -->
+  </suite> <!-- Store - Create Order For Pet -->
+  <suite started-at="2021-08-08T13:09:41Z" name="Pet - Update With Form Data" finished-at="2021-08-08T13:09:43Z" duration-ms="1605">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:09:41Z" name="Update Pet in Store With Form Data - Positive Scenario 1" finished-at="2021-08-08T13:09:43Z" duration-ms="1605">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@2b58a485]" started-at="2021-08-08T13:09:41Z" name="startEngine" finished-at="2021-08-08T13:09:41Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="UpdatePetWithFormData(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@2b58a485]" started-at="2021-08-08T13:09:41Z" name="UpdatePetWithFormData" finished-at="2021-08-08T13:09:43Z" duration-ms="1502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UpdatePetInStoreWithFormData_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePetWithFormData -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Update Pet in Store With Form Data - Positive Scenario 1 -->
+  </suite> <!-- Pet - Update With Form Data -->
+  <suite started-at="2021-08-08T13:10:45Z" name="User - Delete User" finished-at="2021-08-08T13:11:02Z" duration-ms="16885">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:45Z" name="Delete User - Positive Scenario 1" finished-at="2021-08-08T13:10:53Z" duration-ms="8466">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@6d7851a2]" started-at="2021-08-08T13:10:45Z" name="startEngine" finished-at="2021-08-08T13:10:45Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="DeleteUser(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@6d7851a2]" started-at="2021-08-08T13:10:45Z" name="DeleteUser" finished-at="2021-08-08T13:10:53Z" duration-ms="8366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DeleteUser_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUser -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Delete User - Positive Scenario 1 -->
+    <test started-at="2021-08-08T13:10:53Z" name="Delete User - Negative Scenario 1" finished-at="2021-08-08T13:11:02Z" duration-ms="8404">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@1c4e270f]" started-at="2021-08-08T13:10:53Z" name="startEngine" finished-at="2021-08-08T13:10:53Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="DeleteUser(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@1c4e270f]" started-at="2021-08-08T13:10:53Z" name="DeleteUser" finished-at="2021-08-08T13:11:02Z" duration-ms="8332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DeleteUser_NegativeScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUser -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Delete User - Negative Scenario 1 -->
+  </suite> <!-- User - Delete User -->
+  <suite started-at="2021-08-08T13:10:38Z" name="User - Create List of User With Input Array" finished-at="2021-08-08T13:10:39Z" duration-ms="1443">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:38Z" name="Create List of User With Input Array - Positive Scenario 1" finished-at="2021-08-08T13:10:39Z" duration-ms="1443">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@1da4a7c3]" started-at="2021-08-08T13:10:38Z" name="startEngine" finished-at="2021-08-08T13:10:38Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="CreateListOfUsersWithInputArray(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@1da4a7c3]" started-at="2021-08-08T13:10:38Z" name="CreateListOfUsersWithInputArray" finished-at="2021-08-08T13:10:39Z" duration-ms="1326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CreateListOfUsersWithInputArray_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateListOfUsersWithInputArray -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Create List of User With Input Array - Positive Scenario 1 -->
+  </suite> <!-- User - Create List of User With Input Array -->
+  <suite started-at="2021-08-08T13:10:36Z" name="User - Create List of User With Input List" finished-at="2021-08-08T13:10:38Z" duration-ms="1482">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:36Z" name="Create List of User With Input List - Positive Scenario 1" finished-at="2021-08-08T13:10:38Z" duration-ms="1482">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@685aa7a2]" started-at="2021-08-08T13:10:36Z" name="startEngine" finished-at="2021-08-08T13:10:36Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="CreateListOfUsersWithInputList(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@685aa7a2]" started-at="2021-08-08T13:10:36Z" name="CreateListOfUsersWithInputList" finished-at="2021-08-08T13:10:38Z" duration-ms="1372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CreateListOfUsersWithInputList_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateListOfUsersWithInputList -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Create List of User With Input List - Positive Scenario 1 -->
+  </suite> <!-- User - Create List of User With Input List -->
+  <suite started-at="2021-08-08T13:10:41Z" name="User - Get User By Username" finished-at="2021-08-08T13:10:43Z" duration-ms="2927">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:41Z" name="Get User By Username - Positive Scenario 1" finished-at="2021-08-08T13:10:42Z" duration-ms="1461">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@6922eb0]" started-at="2021-08-08T13:10:41Z" name="startEngine" finished-at="2021-08-08T13:10:41Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="GetUserByUsername(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@6922eb0]" started-at="2021-08-08T13:10:41Z" name="GetUserByUsername" finished-at="2021-08-08T13:10:42Z" duration-ms="1381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GetUserByUsername_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserByUsername -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Get User By Username - Positive Scenario 1 -->
+    <test started-at="2021-08-08T13:10:42Z" name="Get User By Username - Negative Scenario 1" finished-at="2021-08-08T13:10:43Z" duration-ms="1446">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@5a7b29e3]" started-at="2021-08-08T13:10:42Z" name="startEngine" finished-at="2021-08-08T13:10:42Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="GetUserByUsername(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@5a7b29e3]" started-at="2021-08-08T13:10:42Z" name="GetUserByUsername" finished-at="2021-08-08T13:10:43Z" duration-ms="1358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GetUserByUsername_NegativeScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserByUsername -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Get User By Username - Negative Scenario 1 -->
+  </suite> <!-- User - Get User By Username -->
+  <suite started-at="2021-08-08T13:10:39Z" name="User - Create User" finished-at="2021-08-08T13:10:41Z" duration-ms="1431">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:39Z" name="Create User - Positive Scenario 1" finished-at="2021-08-08T13:10:41Z" duration-ms="1431">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@cd79160]" started-at="2021-08-08T13:10:39Z" name="startEngine" finished-at="2021-08-08T13:10:39Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="CreateUser(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@cd79160]" started-at="2021-08-08T13:10:39Z" name="CreateUser" finished-at="2021-08-08T13:10:41Z" duration-ms="1345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CreateUser_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Create User - Positive Scenario 1 -->
+  </suite> <!-- User - Create User -->
+  <suite started-at="2021-08-08T13:11:03Z" name="User - Logout User" finished-at="2021-08-08T13:11:05Z" duration-ms="1658">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:11:03Z" name="Logout User To System - Positive Scenario 1" finished-at="2021-08-08T13:11:05Z" duration-ms="1658">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@412f2d58]" started-at="2021-08-08T13:11:03Z" name="startEngine" finished-at="2021-08-08T13:11:04Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="LogoutUser(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@412f2d58]" started-at="2021-08-08T13:11:04Z" name="LogoutUser" finished-at="2021-08-08T13:11:05Z" duration-ms="1501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LogOutUser_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutUser -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Logout User To System - Positive Scenario 1 -->
+  </suite> <!-- User - Logout User -->
+  <suite started-at="2021-08-08T13:09:21Z" name="Pet - Find Pets By Status" finished-at="2021-08-08T13:09:37Z" duration-ms="15645">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:09:21Z" name="Find Pets By Status - Negative Scenario 1" finished-at="2021-08-08T13:09:29Z" duration-ms="8618">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@57fddb2f]" started-at="2021-08-08T13:09:21Z" name="startEngine" finished-at="2021-08-08T13:09:24Z" duration-ms="3502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="FindPetsByStatus(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@57fddb2f]" started-at="2021-08-08T13:09:24Z" name="FindPetsByStatus" finished-at="2021-08-08T13:09:29Z" duration-ms="4931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FindPetByStatus_NegativeScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindPetsByStatus -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Find Pets By Status - Negative Scenario 1 -->
+    <test started-at="2021-08-08T13:09:30Z" name="Find Pets By Status - Positive Scenario 1" finished-at="2021-08-08T13:09:33Z" duration-ms="3031">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@23e82370]" started-at="2021-08-08T13:09:30Z" name="startEngine" finished-at="2021-08-08T13:09:30Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="FindPetsByStatus(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@23e82370]" started-at="2021-08-08T13:09:30Z" name="FindPetsByStatus" finished-at="2021-08-08T13:09:33Z" duration-ms="2857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FindPetByStatus_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindPetsByStatus -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Find Pets By Status - Positive Scenario 1 -->
+    <test started-at="2021-08-08T13:09:33Z" name="Find Pets By Status - Positive Scenario 2" finished-at="2021-08-08T13:09:35Z" duration-ms="1838">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@12f7542d]" started-at="2021-08-08T13:09:33Z" name="startEngine" finished-at="2021-08-08T13:09:33Z" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="FindPetsByStatus(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@12f7542d]" started-at="2021-08-08T13:09:33Z" name="FindPetsByStatus" finished-at="2021-08-08T13:09:35Z" duration-ms="1684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FindPetByStatus_PositiveScenario2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindPetsByStatus -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Find Pets By Status - Positive Scenario 2 -->
+    <test started-at="2021-08-08T13:09:35Z" name="Find Pets By Status - Positive Scenario 3" finished-at="2021-08-08T13:09:37Z" duration-ms="1625">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@5f0a81fb]" started-at="2021-08-08T13:09:35Z" name="startEngine" finished-at="2021-08-08T13:09:35Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="FindPetsByStatus(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@5f0a81fb]" started-at="2021-08-08T13:09:35Z" name="FindPetsByStatus" finished-at="2021-08-08T13:09:37Z" duration-ms="1505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FindPetByStatus_PositiveScenario3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindPetsByStatus -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Find Pets By Status - Positive Scenario 3 -->
+  </suite> <!-- Pet - Find Pets By Status -->
+  <suite started-at="2021-08-08T13:10:08Z" name="Store - Order Delete" finished-at="2021-08-08T13:10:36Z" duration-ms="27907">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:08Z" name="Delete Purchase Order By Id - Positive Scenario 1" finished-at="2021-08-08T13:10:22Z" duration-ms="13706">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@604550d0]" started-at="2021-08-08T13:10:08Z" name="startEngine" finished-at="2021-08-08T13:10:08Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="DeletePurchaseOrderById(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@604550d0]" started-at="2021-08-08T13:10:08Z" name="DeletePurchaseOrderById" finished-at="2021-08-08T13:10:22Z" duration-ms="13600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DeletePurchaseOrderById_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePurchaseOrderById -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Delete Purchase Order By Id - Positive Scenario 1 -->
+    <test started-at="2021-08-08T13:10:22Z" name="Delete Purchase Order By Id - Negative Scenario 1" finished-at="2021-08-08T13:10:36Z" duration-ms="14187">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@535bc28a]" started-at="2021-08-08T13:10:22Z" name="startEngine" finished-at="2021-08-08T13:10:22Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="DeletePurchaseOrderById(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@535bc28a]" started-at="2021-08-08T13:10:22Z" name="DeletePurchaseOrderById" finished-at="2021-08-08T13:10:36Z" duration-ms="14101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DeletePurchaseOrderById_NegativeScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePurchaseOrderById -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Delete Purchase Order By Id - Negative Scenario 1 -->
+  </suite> <!-- Store - Order Delete -->
+  <suite started-at="2021-08-08T13:10:05Z" name="Store - Order Id" finished-at="2021-08-08T13:10:08Z" duration-ms="3651">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:05Z" name="Find Purchase Order By Id - Positive Scenario 1" finished-at="2021-08-08T13:10:06Z" duration-ms="1791">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@66bc8e06]" started-at="2021-08-08T13:10:05Z" name="startEngine" finished-at="2021-08-08T13:10:05Z" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="FindPurchaseOrderById(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@66bc8e06]" started-at="2021-08-08T13:10:05Z" name="FindPurchaseOrderById" finished-at="2021-08-08T13:10:06Z" duration-ms="1670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FindPurchaseOrderById_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindPurchaseOrderById -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Find Purchase Order By Id - Positive Scenario 1 -->
+    <test started-at="2021-08-08T13:10:06Z" name="Find Purchase Order By Id - Negative Scenario 1" finished-at="2021-08-08T13:10:08Z" duration-ms="1841">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@4cc47ddb]" started-at="2021-08-08T13:10:06Z" name="startEngine" finished-at="2021-08-08T13:10:06Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="FindPurchaseOrderById(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@4cc47ddb]" started-at="2021-08-08T13:10:06Z" name="FindPurchaseOrderById" finished-at="2021-08-08T13:10:08Z" duration-ms="1737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FindPurchaseOrderById_NegativeScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindPurchaseOrderById -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Find Purchase Order By Id - Negative Scenario 1 -->
+  </suite> <!-- Store - Order Id -->
+  <suite started-at="2021-08-08T13:10:43Z" name="User - Update User" finished-at="2021-08-08T13:10:45Z" duration-ms="1408">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:10:43Z" name="Update User - Positive Scenario 1" finished-at="2021-08-08T13:10:45Z" duration-ms="1408">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@511b0644]" started-at="2021-08-08T13:10:43Z" name="startEngine" finished-at="2021-08-08T13:10:44Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="UpdateUser(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@511b0644]" started-at="2021-08-08T13:10:44Z" name="UpdateUser" finished-at="2021-08-08T13:10:45Z" duration-ms="1334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UpdateUser_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Update User - Positive Scenario 1 -->
+  </suite> <!-- User - Update User -->
+  <suite started-at="2021-08-08T13:09:37Z" name="Pet - Add New Pet To Store" finished-at="2021-08-08T13:09:40Z" duration-ms="3106">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:09:37Z" name="Add New Pet To Store - Positive Scenario 1" finished-at="2021-08-08T13:09:40Z" duration-ms="3106">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@769df869]" started-at="2021-08-08T13:09:37Z" name="startEngine" finished-at="2021-08-08T13:09:37Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="AddNewPetToStore(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@769df869]" started-at="2021-08-08T13:09:37Z" name="AddNewPetToStore" finished-at="2021-08-08T13:09:40Z" duration-ms="2980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AddNewPetToStore_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewPetToStore -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Add New Pet To Store - Positive Scenario 1 -->
+  </suite> <!-- Pet - Add New Pet To Store -->
+  <suite started-at="2021-08-08T13:09:40Z" name="Pet - Update Existing Pet" finished-at="2021-08-08T13:09:41Z" duration-ms="1696">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:09:40Z" name="Update Existing Pet - Positive Scenario 1" finished-at="2021-08-08T13:09:41Z" duration-ms="1696">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@3bc21d46]" started-at="2021-08-08T13:09:40Z" name="startEngine" finished-at="2021-08-08T13:09:40Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="UpdateExistingPet(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@3bc21d46]" started-at="2021-08-08T13:09:40Z" name="UpdateExistingPet" finished-at="2021-08-08T13:09:41Z" duration-ms="1572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UpdateExistingPet_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateExistingPet -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Update Existing Pet - Positive Scenario 1 -->
+  </suite> <!-- Pet - Update Existing Pet -->
+  <suite started-at="2021-08-08T13:11:02Z" name="User - Login User" finished-at="2021-08-08T13:11:03Z" duration-ms="1563">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T13:11:02Z" name="Login User To System - Positive Scenario 1" finished-at="2021-08-08T13:11:03Z" duration-ms="1563">
+      <class name="apiTest.PetTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:apiTest.PetTest@110d603a]" started-at="2021-08-08T13:11:02Z" name="startEngine" finished-at="2021-08-08T13:11:02Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="LoginUser(java.lang.String, java.lang.String)[pri:0, instance:apiTest.PetTest@110d603a]" started-at="2021-08-08T13:11:02Z" name="LoginUser" finished-at="2021-08-08T13:11:03Z" duration-ms="1436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LogInUser_PositiveScenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+      </class> <!-- apiTest.PetTest -->
+    </test> <!-- Login User To System - Positive Scenario 1 -->
+  </suite> <!-- User - Login User -->
+</testng-results>

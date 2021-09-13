@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1628428161377" stop="1628428170021">
+    <name>Pet - Find Pets By Status</name>
+    <test-cases>
+        <test-case start="1628428164928" stop="1628428169850" status="passed">
+            <name>FindPetsByStatus[FindPetByStatus_NegativeScenario1,pet]</name>
+            <description type="text">Perform an API request to find pets by status</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="SpriteCloud Test"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

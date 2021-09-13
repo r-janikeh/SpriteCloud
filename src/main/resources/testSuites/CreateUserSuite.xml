@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User - Create User">
+    <test name="Create User - Positive Scenario 1">
+        <parameter name="testCase" value="CreateUser_PositiveScenario1"/>
+        <parameter name="environmentName" value="user"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="CreateUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User - Get User By Username">
+    <test name="Get User By Username - Positive Scenario 1">
+        <parameter name="testCase" value="GetUserByUsername_PositiveScenario1"/>
+        <parameter name="environmentName" value="user"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="GetUserByUsername"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Get User By Username - Negative Scenario 1">
+        <parameter name="testCase" value="GetUserByUsername_NegativeScenario1"/>
+        <parameter name="environmentName" value="user"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="GetUserByUsername"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

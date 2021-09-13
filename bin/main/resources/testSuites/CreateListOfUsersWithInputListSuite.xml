@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User - Create List of User With Input List">
+    <test name="Create List of User With Input List - Positive Scenario 1">
+        <parameter name="testCase" value="CreateListOfUsersWithInputList_PositiveScenario1"/>
+        <parameter name="environmentName" value="user"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="CreateListOfUsersWithInputList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

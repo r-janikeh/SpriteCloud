@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1628428206829" stop="1628428208674">
+    <name>Store - Order Id</name>
+    <test-cases>
+        <test-case start="1628428206932" stop="1628428208669" status="passed">
+            <name>FindPurchaseOrderById[FindPurchaseOrderById_NegativeScenario1,store]</name>
+            <description type="text">Perform an API request to find purchase order by id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="SpriteCloud Test"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

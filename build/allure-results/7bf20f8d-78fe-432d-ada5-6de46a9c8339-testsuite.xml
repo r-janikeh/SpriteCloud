@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1628428202969" stop="1628428205009">
+    <name>Store - Create Order For Pet</name>
+    <test-cases>
+        <test-case start="1628428203136" stop="1628428205004" status="passed">
+            <name>PlaceOrderForPet[PlaceOrderForPet_PositiveScenario1,store]</name>
+            <description type="text">Perform an API request to place order for pet</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="SpriteCloud Test"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

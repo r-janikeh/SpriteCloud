@@ -1,0 +1,18 @@
+{
+  "id": 100,
+  "category": {
+    "id": 0,
+    "name": "Pitbull Terrier"
+  },
+  "name": "American Pitbull",
+  "photoUrls": [
+    "https://vrcpitbull.com/wp-content/uploads/2011/02/VAMPVAMP%E2%80%A2.jpg"
+  ],
+  "tags": [
+    {
+      "id": 100,
+      "name": "Black Pitbull"
+    }
+  ],
+  "status": "available"
+}

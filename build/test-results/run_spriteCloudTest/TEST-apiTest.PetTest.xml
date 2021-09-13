@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="apiTest.PetTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2021-08-08T13:09:24" hostname="C02T9C9JGTFM" time="100.606">
+  <properties/>
+  <testcase name="FindPetsByStatus[0](FindPetByStatus_NegativeScenario1, pet)" classname="apiTest.PetTest" time="4.931"/>
+  <testcase name="FindPetsByStatus[0](FindPetByStatus_PositiveScenario1, pet)" classname="apiTest.PetTest" time="2.857"/>
+  <testcase name="FindPetsByStatus[0](FindPetByStatus_PositiveScenario2, pet)" classname="apiTest.PetTest" time="1.684"/>
+  <testcase name="FindPetsByStatus[0](FindPetByStatus_PositiveScenario3, pet)" classname="apiTest.PetTest" time="1.505"/>
+  <testcase name="AddNewPetToStore[0](AddNewPetToStore_PositiveScenario1, pet)" classname="apiTest.PetTest" time="2.98"/>
+  <testcase name="UpdateExistingPet[0](UpdateExistingPet_PositiveScenario1, pet)" classname="apiTest.PetTest" time="1.572"/>
+  <testcase name="UpdatePetWithFormData[0](UpdatePetInStoreWithFormData_PositiveScenario1, pet)" classname="apiTest.PetTest" time="1.502"/>
+  <testcase name="DeletePet[0](DeletePet_PositiveScenario1, pet)" classname="apiTest.PetTest" time="8.343"/>
+  <testcase name="DeletePet[0](DeletePet_NegativeScenario1, pet)" classname="apiTest.PetTest" time="9.3"/>
+  <testcase name="ReturnPetInventoryByStatus[0](ReturnPetInventoryByStatus_PositiveScenario1, store)" classname="apiTest.PetTest" time="1.34"/>
+  <testcase name="PlaceOrderForPet[0](PlaceOrderForPet_PositiveScenario1, store)" classname="apiTest.PetTest" time="1.869"/>
+  <testcase name="FindPurchaseOrderById[0](FindPurchaseOrderById_PositiveScenario1, store)" classname="apiTest.PetTest" time="1.67"/>
+  <testcase name="FindPurchaseOrderById[0](FindPurchaseOrderById_NegativeScenario1, store)" classname="apiTest.PetTest" time="1.737"/>
+  <testcase name="DeletePurchaseOrderById[0](DeletePurchaseOrderById_PositiveScenario1, store)" classname="apiTest.PetTest" time="13.6"/>
+  <testcase name="DeletePurchaseOrderById[0](DeletePurchaseOrderById_NegativeScenario1, store)" classname="apiTest.PetTest" time="14.101"/>
+  <testcase name="CreateListOfUsersWithInputList[0](CreateListOfUsersWithInputList_PositiveScenario1, user)" classname="apiTest.PetTest" time="1.372"/>
+  <testcase name="CreateListOfUsersWithInputArray[0](CreateListOfUsersWithInputArray_PositiveScenario1, user)" classname="apiTest.PetTest" time="1.326"/>
+  <testcase name="CreateUser[0](CreateUser_PositiveScenario1, user)" classname="apiTest.PetTest" time="1.345"/>
+  <testcase name="GetUserByUsername[0](GetUserByUsername_PositiveScenario1, user)" classname="apiTest.PetTest" time="1.381"/>
+  <testcase name="GetUserByUsername[0](GetUserByUsername_NegativeScenario1, user)" classname="apiTest.PetTest" time="1.358"/>
+  <testcase name="UpdateUser[0](UpdateUser_PositiveScenario1, user)" classname="apiTest.PetTest" time="1.334"/>
+  <testcase name="DeleteUser[0](DeleteUser_PositiveScenario1, user)" classname="apiTest.PetTest" time="8.366"/>
+  <testcase name="DeleteUser[0](DeleteUser_NegativeScenario1, user)" classname="apiTest.PetTest" time="8.332"/>
+  <testcase name="LoginUser[0](LogInUser_PositiveScenario1, user)" classname="apiTest.PetTest" time="1.436"/>
+  <testcase name="LogoutUser[0](LogOutUser_PositiveScenario1, user)" classname="apiTest.PetTest" time="1.501"/>
+  <system-out><![CDATA[
+=============== FindPetsByStatus test executed successfully ===============
+
+
+=============== FindPetsByStatus test executed successfully ===============
+
+
+=============== FindPetsByStatus test executed successfully ===============
+
+
+=============== FindPetsByStatus test executed successfully ===============
+
+
+=============== AddNewPetToStore test executed successfully ===============
+
+
+=============== UpdateExistingPet test executed successfully ===============
+
+
+=============== UpdatePetWithFormData test executed successfully ===============
+
+
+=============== DeletePet test executed successfully ===============
+
+
+=============== DeletePet test executed successfully ===============
+
+
+=============== ReturnPetInventoryByStatus test executed successfully ===============
+
+
+=============== PlaceOrderForPet test executed successfully ===============
+
+
+=============== FindPurchaseOrderById test executed successfully ===============
+
+
+=============== FindPurchaseOrderById test executed successfully ===============
+
+
+=============== DeletePurchaseOrderById test executed successfully ===============
+
+
+=============== DeletePurchaseOrderById test executed successfully ===============
+
+
+=============== CreateListOfUsersWithInputList test executed successfully ===============
+
+
+=============== CreateListOfUsersWithInputArray test executed successfully ===============
+
+
+=============== CreateUser test executed successfully ===============
+
+
+=============== FindPurchaseOrderById test executed successfully ===============
+
+
+=============== FindPurchaseOrderById test executed successfully ===============
+
+
+=============== UpdateUser test executed successfully ===============
+
+
+=============== DeleteUser test executed successfully ===============
+
+
+=============== DeleteUser test executed successfully ===============
+
+
+=============== LoginUser test executed successfully ===============
+
+
+=============== LogoutUser test executed successfully ===============
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'FindPetByStatus_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'FindPetByStatus_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find Pets By Status ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet/findByStatus?status=unsold
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - []
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: We are not getting any value    
+EXPECTED: Empty list []  
+ACTUAL: []
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'FindPetByStatus_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'FindPetByStatus_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find Pets By Status ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet/findByStatus?status=available
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - [{"id":9223372000001092995,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001092996,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001092997,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001092998,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001092999,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093000,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093001,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093002,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093003,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9222968140497180179,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093008,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093009,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093010,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093011,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093012,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093013,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093014,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093015,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093016,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093017,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093018,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093019,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093020,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093021,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093022,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093023,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093030,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093031,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093032,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093033,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093034,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093035,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093036,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093037,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093038,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093039,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093040,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093041,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093042,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093043,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093044,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093045,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9999,"category":{"id":2,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":1,"name":"string"}],"status":"available"},{"id":89,"category":{"id":55,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":507,"name":"Dog"}],"status":"available"},{"id":9223372000001093051,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093052,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093053,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093054,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093055,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":61,"category":{"id":476,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":663,"name":"Dog"}],"status":"available"},{"id":1456987,"category":{"id":0},"name":"Tamara PET","photoUrls":[],"tags":[],"status":"available"},{"id":9223372000001093058,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093059,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093060,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093061,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093062,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093063,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093064,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093065,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093066,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093067,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093068,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":4,"category":{"id":4,"name":"Pet__dog"},"name":"doggie Labra","photoUrls":[],"tags":[{"id":4,"name":"Dogge"}],"status":"available"},{"id":9223372000001093071,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093072,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093073,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093074,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":112233,"category":{"id":30,"name":"Eq-dog"},"name":"Postman","photoUrls":["URLLink"],"tags":[{"id":10,"name":"Doberman"}],"status":"available"},{"id":9223372000001093075,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093076,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093077,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093078,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093079,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093080,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093081,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093082,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093083,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":3,"category":{"id":939,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":517,"name":"Dog"}],"status":"available"},{"id":9223372000001093084,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093085,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093086,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":789,"category":{"id":0},"name":"Pet Teste","photoUrls":[],"tags":[],"status":"available"},{"id":9223372000001093090,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093091,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093092,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093093,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093094,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093095,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093096,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093097,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093098,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093099,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093100,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093101,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093102,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093103,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093104,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093105,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093112,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093113,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093114,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093115,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093116,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093117,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093118,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093119,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093120,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093121,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093122,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093123,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093124,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093125,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093126,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":44001,"category":{"id":1,"name":"cat"},"name":"Molly","photoUrls":[],"tags":[{"id":0,"name":"team4"},{"id":3,"name":"lazy"},{"id":5,"name":"mild"}],"status":"available"},{"id":44002,"category":{"id":1,"name":"cat"},"name":"Bella","photoUrls":[],"tags":[{"id":0,"name":"team4"},{"id":1,"name":"brave"},{"id":2,"name":"elegance"}],"status":"available"},{"id":44007,"category":{"id":2,"name":"dog"},"name":"Daisy","photoUrls":[],"tags":[{"id":0,"name":"team4"},{"id":3,"name":"lazy"},{"id":1,"name":"brave"}],"status":"available"},{"id":44009,"category":{"id":3,"name":"bird"},"name":"Lola","photoUrls":[],"tags":[{"id":0,"name":"team4"},{"id":2,"name":"elegance"},{"id":5,"name":"mild"}],"status":"available"},{"id":44006,"category":{"id":2,"name":"dog"},"name":"Bailey","photoUrls":[],"tags":[{"id":0,"name":"team4"},{"id":4,"name":"active"},{"id":2,"name":"elegance"}],"status":"available"},{"id":440013,"category":{"id":0,"name":"rabbit"},"name":"Inky","photoUrls":[],"tags":[{"id":0,"name":"team4"},{"id":2,"name":"elegance"},{"id":5,"name":"mild"}],"status":"available"},{"id":440014,"category":{"id":0,"name":"rabbit"},"name":"Ron","photoUrls":[],"tags":[{"id":0,"name":"team4"},{"id":5,"name":"mild"},{"id":1,"name":"brave"}],"status":"available"},{"id":9223372000001093131,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093132,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093133,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093134,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093135,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093136,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093137,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093138,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093139,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093140,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093141,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093142,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093143,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093144,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093145,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093146,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093147,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093148,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1010,"category":{"id":0,"name":"string"},"name":"javascript:alert()","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":23,"category":{"id":305,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":454,"name":"Dog"}],"status":"available"},{"id":9223372000001093149,"category":{"id":0,"name":"string"},"name":"doggieNew","photoUrls":["stillNoPhoto"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093150,"category":{"id":0,"name":"tommy"},"name":"doggie","photoUrls":["none"],"tags":[{"id":1,"name":"doggy"}],"status":"available"},{"id":9223372000001093156,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093157,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093158,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093159,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093160,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093161,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":33,"category":{"id":4,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":689,"name":"Dog"}],"status":"available"},{"id":9222968140496921062,"category":{"id":0,"name":"string"},"name":"myAwsomeDog","photoUrls":["stillNoPhoto"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093163,"name":"siyaan","photoUrls":[],"tags":[],"status":"available"},{"id":9223372000001093164,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093165,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093166,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093167,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093168,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093169,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093171,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093172,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093173,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093174,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093175,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093176,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093181,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093182,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093183,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":13,"category":{"id":951,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":811,"name":"Dog"}],"status":"available"},{"id":9223372000001093184,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093186,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093187,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093188,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093189,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093190,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093191,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093192,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093193,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093194,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093195,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093205,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093206,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093207,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093208,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093209,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093210,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093211,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093212,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093213,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093214,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093215,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093216,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093217,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093218,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093219,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093220,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093221,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":25,"category":{"id":318,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":691,"name":"Dog"}],"status":"available"},{"id":19,"category":{"id":80,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":60,"name":"Dog"}],"status":"available"},{"id":9223372000001093227,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093228,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093229,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":18,"category":{"id":68,"name":"Dog"},"name":"doggie","photoUrls":[],"tags":[{"id":130,"name":"Dog"}],"status":"available"},{"id":9223372000001093230,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093231,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093232,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093233,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093234,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093235,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093236,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093237,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093238,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093239,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093240,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093241,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093245,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093246,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093247,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093248,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093249,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093250,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093251,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093252,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093253,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093254,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093255,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093256,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093257,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093258,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093259,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093260,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093267,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093268,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093269,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093270,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093271,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093272,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093273,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093274,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093275,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093276,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093277,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093278,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093279,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093280,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093285,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093286,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093287,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093288,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093289,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093290,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093291,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093292,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093293,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093294,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093295,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093296,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093297,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093298,"name":"doggie","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093303,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093304,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093305,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093306,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093307,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9222968140491042131,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093308,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093309,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093310,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093311,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093312,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093313,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093314,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093315,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093316,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093317,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093318,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093322,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093324,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093325,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093326,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093327,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093328,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":101,"category":{"id":0,"name":"string"},"name":"monkey","photoUrls":["string"],"tags":[{"id":1,"name":"string2"}],"status":"available"},{"id":9223372000001093329,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093330,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093331,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093332,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093333,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093334,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093335,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093336,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093337,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093338,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093339,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093345,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093346,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093347,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093348,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093349,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093350,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093351,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093352,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093353,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093354,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093355,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093356,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093357,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093358,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093359,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093360,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093366,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093367,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093368,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":991,"category":{"id":87,"name":"category991"},"name":"Llama","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093369,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":11,"category":{"id":11,"name":"domestic"},"name":"doggie","photoUrls":["http://www.google.com/karuna/photos/animals/dog.jpg"],"tags":[{"id":1,"name":"petdogs"}],"status":"available"},{"id":9223372000001093370,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093371,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093372,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093373,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093374,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093375,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093376,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093377,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093378,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093384,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093385,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093386,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093387,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093388,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093389,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093390,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093391,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093392,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093393,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093394,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093395,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093396,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093397,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093398,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093399,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093400,"category":{"id":0,"name":"tommy"},"name":"doggie","photoUrls":["none"],"tags":[{"id":1,"name":"doggy"}],"status":"available"},{"id":9223372000001093409,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093410,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093411,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093412,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093413,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093414,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093415,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093416,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093417,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093418,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093419,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093420,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093421,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093422,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093423,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093424,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093425,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093433,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093434,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093435,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093436,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093437,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093438,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093439,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093440,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093441,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093442,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093443,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093444,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093445,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093446,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093447,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093448,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093449,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093455,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093456,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093457,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093458,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":777,"name":"White Cat","photoUrls":[],"tags":[{"id":0,"name":"kitten"}],"status":"available"},{"id":9223372000001093459,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093460,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093461,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093462,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093463,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093464,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093465,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093466,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093467,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093468,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093469,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093470,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093471,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093479,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093480,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093481,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093482,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093483,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093484,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093485,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093486,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093487,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093488,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093489,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093490,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093491,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093492,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093493,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093494,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093495,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093504,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093505,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093506,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093507,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093508,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093509,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093510,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093511,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093512,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093513,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093514,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093515,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093516,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093517,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093518,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093519,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093520,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093521,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093526,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093527,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093528,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093529,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093530,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093531,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093532,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093533,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093534,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093535,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093536,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093537,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093538,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093539,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093540,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093541,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093542,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093546,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093547,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093548,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093549,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093550,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093551,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093552,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093553,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093554,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093555,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093556,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093557,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093558,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093559,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093560,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093561,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093562,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093563,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093569,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093570,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093571,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093572,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093573,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093574,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093575,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093576,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093577,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093578,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093579,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093580,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093581,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093582,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093583,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093588,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093589,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093590,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093591,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093593,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093594,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093595,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093596,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093597,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093598,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093599,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093600,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093601,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093602,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":5489,"category":{"id":1,"name":"Cat"},"name":"Missi","photoUrls":[],"tags":[{"id":35,"name":"British cat"}],"status":"available"},{"id":9223372000001093607,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093608,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093609,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093610,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093611,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093612,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093613,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093614,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093616,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093617,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093618,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093619,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093620,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093621,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093622,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":11440023,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093626,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093628,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093629,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093630,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093631,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093632,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093633,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093634,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093635,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093636,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093637,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093638,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093639,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093640,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093641,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093643,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093644,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093645,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093646,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093648,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093651,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093653,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093654,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093655,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093656,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093657,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093658,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093659,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093660,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093661,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093662,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093663,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093664,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093665,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093666,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093667,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093668,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":2323,"category":{"id":0,"name":"string"},"name":"dog","photoUrls":["string"],"tags":[{"id":0,"name":"Rit"}],"status":"available"},{"id":9223372000001093674,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093675,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093676,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093677,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093678,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093679,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093680,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093681,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093682,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093683,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093684,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093685,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093686,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093687,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093688,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093693,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093694,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093695,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093696,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093697,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093698,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093699,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093700,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093701,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093702,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093703,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093704,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093705,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093709,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093711,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093712,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093713,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093714,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093715,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093716,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093717,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093718,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093719,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093720,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093721,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093722,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093723,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093724,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093730,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093731,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093732,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093733,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093734,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093735,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093736,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093737,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":2,"category":{"id":0,"name":"string"},"name":"Fluffy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093738,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093739,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093740,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093741,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093742,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093743,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093749,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093750,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093751,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093752,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093753,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093754,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093755,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093756,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093757,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093758,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093759,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093760,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093761,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093762,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093763,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093764,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093765,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093766,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093767,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093768,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093769,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093770,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093771,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093772,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093773,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093774,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093775,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093776,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093777,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093778,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093779,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093780,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093781,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093782,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093787,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093788,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093789,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093790,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093791,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093793,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093794,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093795,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093796,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093797,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093798,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093799,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093800,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093801,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093802,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093803,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093804,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093805,"category":{"id":0,"name":"string"},"name":"Scoobie","photoUrls":["string"],"tags":[{"id":0,"name":"Doobie"}],"status":"available"},{"id":9223372000001093811,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093812,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093813,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093814,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093815,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093818,"name":"rocky","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372000001093819,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093820,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093821,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093822,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093823,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093824,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093825,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093826,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093827,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093833,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093834,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093835,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093836,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093837,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093838,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093839,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093840,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093841,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093842,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093843,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093844,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093845,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093846,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093849,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093850,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1111,"category":{"id":0,"name":"string"},"name":"crot","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093857,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093858,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093859,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093860,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093861,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093862,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093863,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093864,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093865,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093866,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093867,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093868,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093869,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093870,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093871,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093879,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093880,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093881,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093883,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093884,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093885,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093886,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093887,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093888,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093889,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093890,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093891,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093892,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093893,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093894,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093895,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093897,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093902,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093903,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093904,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":3115,"name":"doggie","photoUrls":["abc","def"],"tags":[],"status":"available"},{"id":9223372000001093905,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093906,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093907,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093908,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093909,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093910,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093911,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093912,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093913,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093914,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093915,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":100,"category":{"id":101,"name":"Boerboel"},"name":"Bull","photoUrls":["https://vrcpitbull.com/wp-content/uploads/2011/02/VAMPVAMP%E2%80%A2.jpg"],"tags":[{"id":101,"name":"Ghost"}],"status":"available"},{"id":9223372000001093916,"category":{"id":0,"name":"Dog"},"name":"Max","photoUrls":["http://localhost:3154/image1.png"],"tags":[{"id":0,"name":"Boxer"},{"id":0,"name":"Puppy"}],"status":"available"},{"id":9223372000001093922,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093923,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093924,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":3114,"name":"doggie","photoUrls":["abc","def"],"tags":[],"status":"available"},{"id":9223372000001093925,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093926,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093927,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093928,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093929,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093930,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093931,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093932,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093933,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093934,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093935,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093936,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372000001093937,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}]
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: PetID    
+EXPECTED: Not to be null  
+ACTUAL: 9223372000001092995
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'FindPetByStatus_PositiveScenario2' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'FindPetByStatus_PositiveScenario2' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find Pets By Status ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet/findByStatus?status=pending
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - [{"id":440024,"category":{"id":2,"name":"dog"},"name":"Archie","photoUrls":[],"tags":[{"id":0,"name":"team4"},{"id":2,"name":"elegance"},{"id":4,"name":"active"}],"status":"pending"},{"id":9223372000001093408,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"pending"},{"id":321,"category":{"id":30,"name":"poket friends"},"name":"dobby","photoUrls":[],"tags":[],"status":"pending"},{"id":9223372000001093744,"category":{"id":0,"name":"Cat"},"name":"Ruby","photoUrls":["http://localhost:3154/image2.png"],"tags":[{"id":0,"name":"Bombay"},{"id":0,"name":"Kitty"}],"status":"pending"},{"id":9223372000001093920,"category":{"id":0,"name":"Cat"},"name":"Ruby","photoUrls":["http://localhost:3154/image2.png"],"tags":[{"id":0,"name":"Bombay"},{"id":0,"name":"Kitty"}],"status":"pending"}]
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: PetID    
+EXPECTED: Not to be null  
+ACTUAL: 440024
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'FindPetByStatus_PositiveScenario3' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'FindPetByStatus_PositiveScenario3' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find Pets By Status ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - [{"id":3234561,"category":{"id":1,"name":"Кошки"},"name":"Барсик","photoUrls":["http://s9.pikabu.ru/post_img/2017/11/04/10/150981807218099995.jpg"],"tags":[{"id":1,"name":"1"}],"status":"sold"},{"id":12,"category":{"id":0,"name":"dogs"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":74408294,"category":{"id":70278030,"name":"in adipisicing"},"name":"doggie","photoUrls":["nostrud sunt eu occaecat elit","esse aute non magna"],"tags":[{"id":81618844,"name":"id aliquip"},{"id":-96817599,"name":"ut elit esse"}],"status":"sold"}]
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: PetID    
+EXPECTED: Not to be null  
+ACTUAL: 3234561
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'AddNewPetToStore_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'AddNewPetToStore_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Add New Pet To Store ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: POST
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "photoUrls": ["https://vrcpitbull.com/wp-content/uploads/2011/02/VAMPVAMP%E2%80%A2.jpg"],
+    "name": "Bull",
+    "id": 100,
+    "category": {
+        "name": "Boerboel",
+        "id": 101
+    },
+    "tags": [{
+        "name": "Ghost",
+        "id": 101
+    }],
+    "status": "available"
+}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "photoUrls": ["https://vrcpitbull.com/wp-content/uploads/2011/02/VAMPVAMP%E2%80%A2.jpg"],
+    "name": "Bull",
+    "id": 100,
+    "category": {
+        "name": "Boerboel",
+        "id": 101
+    },
+    "tags": [{
+        "name": "Ghost",
+        "id": 101
+    }],
+    "status": "available"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: CategoryName    
+EXPECTED: Boerboel
+ACTUAL: Boerboel
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'UpdateExistingPet_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'UpdateExistingPet_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Update Existing Pet ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: PUT
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "photoUrls": ["https://vrcpitbull.com/wp-content/uploads/2011/02/VAMPVAMP%E2%80%A2.jpg"],
+    "name": "BluBull",
+    "id": 100,
+    "category": {
+        "name": "Boerboel",
+        "id": 103
+    },
+    "tags": [{
+        "name": "Ghost Buster",
+        "id": 101
+    }],
+    "status": "sold"
+}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "photoUrls": ["https://vrcpitbull.com/wp-content/uploads/2011/02/VAMPVAMP%E2%80%A2.jpg"],
+    "name": "BluBull",
+    "id": 100,
+    "category": {
+        "name": "Boerboel",
+        "id": 103
+    },
+    "tags": [{
+        "name": "Ghost Buster",
+        "id": 101
+    }],
+    "status": "sold"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: CategoryName    
+EXPECTED: Boerboel
+ACTUAL: Boerboel
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'UpdatePetInStoreWithFormData_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'UpdatePetInStoreWithFormData_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Update Pet With Form Data ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: POST
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet/440016
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+Name: Doggo
+Status: pending
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "440016"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: 440016
+ACTUAL: 440016
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'DeletePet_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'DeletePet_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Delete Pet ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: DELETE
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet/3234561
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "3234561"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: 3234561
+ACTUAL: 3234561
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'DeletePet_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'DeletePet_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'pet' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find Pets By Id ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/pet/9223372000001073407
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 1,
+    "type": "error",
+    "message": "Pet not found"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 404 
+ACTUAL: 404
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'ReturnPetInventoryByStatus_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'ReturnPetInventoryByStatus_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'store' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Return Pet Inventory By Status ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/store/inventory
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "sold": 3,
+    "string": 208,
+    "unavailable": 2,
+    "pending": 5,
+    "В наличии": 2,
+    "team2": 1,
+    "available": 755,
+    "OK": 1,
+    "ok": 3,
+    "free": 1,
+    "Продан": 1,
+    "Beta": 1
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'PlaceOrderForPet_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'PlaceOrderForPet_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'store' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Place Order For Pet ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: POST
+---------------- URL ------------------
+https://petstore.swagger.io/v2/store/order
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "petId": 6666666,
+    "quantity": 1,
+    "id": 41159149,
+    "shipDate": "2021-09-05T19:03:42.894Z",
+    "complete": true,
+    "status": "placed"
+}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "petId": 6666666,
+    "quantity": 1,
+    "id": 41159149,
+    "shipDate": "2021-09-05T19:03:42.894+0000",
+    "complete": true,
+    "status": "placed"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: OrderID    
+EXPECTED: Not to be null  
+ACTUAL: 41159149
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: 41159149
+ACTUAL: 41159149
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'FindPurchaseOrderById_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'FindPurchaseOrderById_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'store' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find Purchase Order By Id ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/store/order/1
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "petId": 1110,
+    "quantity": 1,
+    "id": 1,
+    "shipDate": "2021-08-08T07:47:10.759+0000",
+    "complete": true,
+    "status": "placed"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: OrderID    
+EXPECTED: Not to be null  
+ACTUAL: 1
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'FindPurchaseOrderById_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'FindPurchaseOrderById_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'store' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find Purchase Order By Id ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/store/order/11111122222
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 1,
+    "type": "error",
+    "message": "Order not found"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 404 
+ACTUAL: 404
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: Order not found
+ACTUAL: Order not found
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'DeletePurchaseOrderById_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'DeletePurchaseOrderById_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'store' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Delete Purchase Order ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: DELETE
+---------------- URL ------------------
+https://petstore.swagger.io/v2/store/order/41159149
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "41159149"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: 41159149
+ACTUAL: 41159149
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'DeletePurchaseOrderById_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'DeletePurchaseOrderById_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'store' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Delete Purchase Order ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: DELETE
+---------------- URL ------------------
+https://petstore.swagger.io/v2/store/order/21
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 404,
+    "type": "unknown",
+    "message": "Order Not Found"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 404 
+ACTUAL: 404
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: Order Not Found
+ACTUAL: Order Not Found
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'CreateListOfUsersWithInputList_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'CreateListOfUsersWithInputList_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Create List Of Users With Input List ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: POST
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/createWithList
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - [{"firstName":"LeBron","lastName":"James","password":"lbj23","userStatus":166,"phone":"147852369","id":767,"email":"lebron@email.com","username":"LeKing"},{"firstName":"Michael","lastName":"Jordan","password":"air23","userStatus":167,"phone":"3698521470","id":768,"email":"mike@email.com","username":"Jumpman"}]
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: ok
+ACTUAL: ok
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'CreateListOfUsersWithInputArray_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'CreateListOfUsersWithInputArray_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Create List Of Users With Input Array ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: POST
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/createWithArray
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - [{"firstName":"LeBron","lastName":"James","password":"lbj23","userStatus":166,"phone":"147852369","id":767,"email":"lebron@email.com","username":"LeKing"},{"firstName":"Michael","lastName":"Jordan","password":"air23","userStatus":167,"phone":"3698521470","id":768,"email":"mike@email.com","username":"Jumpman"}]
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: ok
+ACTUAL: ok
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'CreateUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'CreateUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Create User ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: POST
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "firstName": "Fabrice",
+    "lastName": "Mangoua",
+    "password": "passy123",
+    "userStatus": 2015,
+    "phone": "147852369",
+    "id": 323,
+    "email": "fabmangoua@email.com",
+    "username": "Bobynator"
+}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "323"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: 323
+ACTUAL: 323
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'GetUserByUsername_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'GetUserByUsername_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find User By Username ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/Bobynator
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "firstName": "Fabrice",
+    "lastName": "Mangoua",
+    "password": "passy123",
+    "userStatus": 2015,
+    "phone": "147852369",
+    "id": 323,
+    "email": "fabmangoua@email.com",
+    "username": "Bobynator"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Username    
+EXPECTED: Bobynator
+ACTUAL: Bobynator
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'GetUserByUsername_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'GetUserByUsername_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Find User By Username ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/Keyou
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 404 
+ACTUAL: 404
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: User not found
+ACTUAL: User not found
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'UpdateUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'UpdateUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Update User ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: PUT
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/Bobynator
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "firstName": "Fabricio",
+    "lastName": "Mangoua",
+    "password": "passy1234",
+    "userStatus": 2031,
+    "phone": "147852369",
+    "id": 323,
+    "email": "updateEmail@email.com",
+    "username": "Bobynator"
+}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "323"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'DeleteUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'DeleteUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Delete User ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: DELETE
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/Bobynator
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "Bobynator"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: Bobynator
+ACTUAL: Bobynator
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'DeleteUser_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'DeleteUser_NegativeScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Delete User ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: DELETE
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/delete
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- REQUEST ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 404 
+ACTUAL: 404
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'LogInUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'LogInUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Login User ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/login?username=Bob&password=password
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1628428264062"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: logged in user session:
+ACTUAL: logged in user session:1628428264062
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/SpriteCloudData.xlsx' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Get specific data for test case: 'LogOutUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup test data for test 'LogOutUser_PositiveScenario1' successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.engine.DriverFactory - Set Environment Name: 'user' successfully
+[Test worker] INFO main.java.engine.DriverFactory - ========================== Logout User ============================
+[Test worker] INFO main.java.engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://petstore.swagger.io/v2/user/logout
+[Test worker] INFO main.java.engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json, accept=application/json}
+[Test worker] INFO main.java.engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.engine.DriverFactory - 
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.engine.DriverFactory - ASSERT: Message    
+EXPECTED: ok
+ACTUAL: ok
+]]></system-err>
+</testsuite>

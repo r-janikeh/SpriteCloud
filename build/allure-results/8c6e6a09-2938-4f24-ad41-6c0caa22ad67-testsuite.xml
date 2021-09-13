@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1628428239576" stop="1628428241009">
+    <name>User - Create User</name>
+    <test-cases>
+        <test-case start="1628428239660" stop="1628428241005" status="passed">
+            <name>CreateUser[CreateUser_PositiveScenario1,user]</name>
+            <description type="text">Perform an API request to create user</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="SpriteCloud Test"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

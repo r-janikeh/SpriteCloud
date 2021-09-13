@@ -1,0 +1,18 @@
+{
+  "id": 9223372000001073000,
+  "category": {
+    "id": 9223372000001073000,
+    "name": "Protection"
+  },
+  "name": "doggi",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Snoop Doggy"
+    }
+  ],
+  "status": "available"
+}

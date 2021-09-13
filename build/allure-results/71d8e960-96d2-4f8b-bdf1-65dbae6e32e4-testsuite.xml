@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1628428241019" stop="1628428242490">
+    <name>User - Get User By Username</name>
+    <test-cases>
+        <test-case start="1628428241098" stop="1628428242479" status="passed">
+            <name>GetUserByUsername[GetUserByUsername_PositiveScenario1,user]</name>
+            <description type="text">Perform an API request to get user by username</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="SpriteCloud Test"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

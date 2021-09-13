@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1628428191999" stop="1628428201416">
+    <name>Pet - Delete Pet</name>
+    <test-cases>
+        <test-case start="1628428192096" stop="1628428201395" status="passed">
+            <name>DeletePet[DeletePet_NegativeScenario1,pet]</name>
+            <description type="text">Perform an API request to delete pet</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="SpriteCloud Test"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

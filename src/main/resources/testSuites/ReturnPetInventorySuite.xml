@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Store - Pet Inventory">
+    <test name="Return Pet Inventory - Positive Scenario 1">
+        <parameter name="testCase" value="ReturnPetInventoryByStatus_PositiveScenario1"/>
+        <parameter name="environmentName" value="store"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="ReturnPetInventoryByStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

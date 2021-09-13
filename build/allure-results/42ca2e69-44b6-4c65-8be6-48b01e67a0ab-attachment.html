@@ -1,0 +1,63 @@
+<div>POST to https://petstore.swagger.io/v2/user/createWithList</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    [
+    {
+        &quot;firstName&quot;: &quot;LeBron&quot;,
+        &quot;lastName&quot;: &quot;James&quot;,
+        &quot;password&quot;: &quot;lbj23&quot;,
+        &quot;userStatus&quot;: 166,
+        &quot;phone&quot;: &quot;147852369&quot;,
+        &quot;id&quot;: 767,
+        &quot;email&quot;: &quot;lebron@email.com&quot;,
+        &quot;username&quot;: &quot;LeKing&quot;
+    },
+    {
+        &quot;firstName&quot;: &quot;Michael&quot;,
+        &quot;lastName&quot;: &quot;Jordan&quot;,
+        &quot;password&quot;: &quot;air23&quot;,
+        &quot;userStatus&quot;: 167,
+        &quot;phone&quot;: &quot;3698521470&quot;,
+        &quot;id&quot;: 768,
+        &quot;email&quot;: &quot;mike@email.com&quot;,
+        &quot;username&quot;: &quot;Jumpman&quot;
+    }
+]
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>accept: application/json</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://petstore.swagger.io/v2/user/createWithList&#39; -H &#39;accept: application/json&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;[
+    {
+        &quot;firstName&quot;: &quot;LeBron&quot;,
+        &quot;lastName&quot;: &quot;James&quot;,
+        &quot;password&quot;: &quot;lbj23&quot;,
+        &quot;userStatus&quot;: 166,
+        &quot;phone&quot;: &quot;147852369&quot;,
+        &quot;id&quot;: 767,
+        &quot;email&quot;: &quot;lebron@email.com&quot;,
+        &quot;username&quot;: &quot;LeKing&quot;
+    },
+    {
+        &quot;firstName&quot;: &quot;Michael&quot;,
+        &quot;lastName&quot;: &quot;Jordan&quot;,
+        &quot;password&quot;: &quot;air23&quot;,
+        &quot;userStatus&quot;: 167,
+        &quot;phone&quot;: &quot;3698521470&quot;,
+        &quot;id&quot;: 768,
+        &quot;email&quot;: &quot;mike@email.com&quot;,
+        &quot;username&quot;: &quot;Jumpman&quot;
+    }
+]&#39;
+</div>

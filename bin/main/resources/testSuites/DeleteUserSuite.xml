@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User - Delete User">
+    <test name="Delete User - Positive Scenario 1">
+        <parameter name="testCase" value="DeleteUser_PositiveScenario1"/>
+        <parameter name="environmentName" value="user"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="DeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Delete User - Negative Scenario 1">
+        <parameter name="testCase" value="DeleteUser_NegativeScenario1"/>
+        <parameter name="environmentName" value="user"/>
+        <classes>
+            <class name="apiTest.PetTest">
+                <methods>
+                    <include name="DeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

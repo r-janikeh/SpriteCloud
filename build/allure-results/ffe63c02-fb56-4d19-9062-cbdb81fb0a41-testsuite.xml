@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1628428208688" stop="1628428222399">
+    <name>Store - Order Delete</name>
+    <test-cases>
+        <test-case start="1628428208791" stop="1628428222392" status="passed">
+            <name>DeletePurchaseOrderById[DeletePurchaseOrderById_PositiveScenario1,store]</name>
+            <description type="text">Perform an API request to delete purchase order by id</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="feature" value="SpriteCloud Test"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
